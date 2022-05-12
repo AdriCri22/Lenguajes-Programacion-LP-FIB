@@ -10,7 +10,7 @@ El codi conté totes les funcionalitats proposades en l'enunciat.
   - **TreeVisitor.py**: és l'arbre visitador.
   - **Makefile**: genera el programa i permet esborrar els seus fitxers.
 
-              clean: esborra els fitxers necessaris per executar el programa, pero deixa les sortides d'aquest.
+              clean: esborra els fitxers necessaris per executar el programa, però deixa les sortides d'aquest.
               distclean: esborra tots els fitxers per executar el programa, a excepció dels .jsb.
               
 ## Com executar el programa:
@@ -25,16 +25,16 @@ Si s'executa un programa amb una altra funció com a punt d'inici, com per exemp
     
 ## Excepcions del LP:
   - Divisió entre 0.
-  - Funció donada com a punt d'inici donat erronea.
+  - Funció donada com a punt d'inici donat errònia.
   - Variable no definida.
   - Operador no acceptat.
-  - Error al asignar un valor a una variable, perque no és un element acceptat pel LP.
-  - Error al llegir un valor pel canal estàndard d'entrada, al no ser un valor enter o una nota.
-  - Al escriure pel canal estàndard de sortida no donar paràmetres acceptats pel LP.
-  - Si s'intenta fer play d'un valor que no sigui una nota.
+  - Error en assignar un valor a una variable, perquè no és un element acceptat pel LP.
+  - Error en llegir un valor pel canal estàndard d'entrada, perquè no és un valor enter o una nota.
+  - En escriure pel canal estàndard de sortida no donar paràmetres acceptats pel LP.
+  - Si s'intenta reproduir un valor que no sigui una nota.
   - S'intenta assignar a una llista un element no acceptat pel LP.
   - S'intenta accedir a una llista no definida.
-  - L'index donat per accedir a una posició de la llista es troba fora dels límits, és 0 o major que la mida de la llista.
+  - L'índex donat per accedir a una posició de la llista es troba fora dels límits, és 0 o major que la mida de la llista.
   - S'intenta definir un nou procediment que ja existeix.
   - S'intenta fer la crida a un procediment que no existeix.
   - El nombre de paràmetres d'un procediment cridat no és el mateix que el del procediment.
