@@ -23,6 +23,10 @@ Si s'executa un programa amb una altra funció com a punt d'inici, com per exemp
 
     python3 jsbach.py musica.jsb Hanoi
     
+Si s'executa un programa amb una altra funció com a punt d'inici que conté certs arguments (només accepta notes i enters), com per exemple:
+
+    python3 jsbach.py musica.jsb Main 1 2 A1 B
+    
 ## Excepcions del LP:
   - Divisió entre 0.
   - Funció donada com a punt d'inici donat errònia.
