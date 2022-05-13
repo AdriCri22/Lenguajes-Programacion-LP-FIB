@@ -27,6 +27,11 @@ Si s'executa un programa amb una altra funció com a punt d'inici que conté cer
 
     python3 jsbach.py musica.jsb Main 1 2 A1 B
     
+## Coses a comentar:
+  - L'arxiu TreeVisitor.py conté una constant anomenada TEMPO on podem definir el tempo dels arxius de sortida, per defecte es troba a 180.
+  - La nota màxima és C8 i la més petita A0, pel que si es surt dels límits al fer operacions amb notes salta un error.
+  - Els arxius: .pdf, .midi, .wav i .mp3 es generen al final, en canvi el .lily sempre es genera cada vegada que executem <:>.
+
 ## Excepcions del LP:
   - Divisió entre 0.
   - Funció donada com a punt d'inici donat errònia.
