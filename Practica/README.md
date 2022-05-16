@@ -10,8 +10,8 @@ El codi conté totes les funcionalitats proposades en l'enunciat.
   - **TreeVisitor.py**: és l'arbre visitador.
   - **Makefile**: genera el programa i permet esborrar els seus fitxers.
 
-              clean: esborra els fitxers necessaris per executar el programa, però deixa les sortides d'aquest.
-              distclean: esborra tots els fitxers per executar el programa, a excepció dels .jsb.
+              clean: esborra els fitxers creats al executar la comanda antlr4.
+              distclean: esborra els fitxers creats al executar la comanda antlr4 i els .pdf, .midi, .was, .mp3 i .lily.
               
 ## Com executar el programa:
 
@@ -30,11 +30,11 @@ Si s'executa un programa amb una altra funció com a punt d'inici que conté cer
 ## Coses a comentar:
   - L'arxiu TreeVisitor.py conté una constant anomenada TEMPO on podem definir el tempo dels arxius de sortida, per defecte es troba a 180.
   - La nota màxima és C8 i la més petita A0, pel que si es surt dels límits al fer operacions amb notes salta un error.
-  - Els arxius: .pdf, .midi, .wav i .mp3 es generen al final, en canvi el .lily sempre es genera cada vegada que executem <:>.
+  - Els arxius: .pdf, .midi, .wav i .mp3 es generen al final, en canvi el .lily es genera cada vegada que executem <:>.
 
 ## Excepcions del LP:
   - Divisió entre 0.
-  - Funció donada com a punt d'inici donat errònia.
+  - Funció donada com a punt d'inici erroni.
   - Variable no definida.
   - Operador no acceptat.
   - Error en assignar un valor a una variable, perquè no és un element acceptat pel LP.
