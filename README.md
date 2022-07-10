@@ -3,7 +3,7 @@ Encuentra los ejercicios de laboratorio, el trabajo dirigido y la práctica de l
 
 ## Trabajo dirigido (TD)
 ### Lenguaje de programación: Dart
-### Nota: -
+### Nota: 9.36
 
 ## Práctica Python
-### Nota: -
+### Nota: 8.0
